@@ -1,13 +1,14 @@
 {
   "name": "smallest-federated-wiki",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "wiki": "0.3.5"
+    "wiki": "~0.7",
+    "wiki-storage-redis": "loppear/wiki-storage-redis#url-from-env"
   },
   "scripts": {
-    "start": "wiki -p $PORT --database '{\"type\": \"./mongodb\"}'"
+    "start": "wiki -p $PORT --database '{\"type\": \"redis\"}'"
   },
   "author": "",
   "license": "MIT"

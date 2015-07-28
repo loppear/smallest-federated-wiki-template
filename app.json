@@ -5,7 +5,7 @@
   "logo": "http://fed.wiki.org/favicon.png",
   "website": "http://fed.wiki.org/",
   "addons": [
-    "mongolab:sandbox"
+    "rediscloud"
   ],
   "keywords": [
     "smallest federated wiki",
