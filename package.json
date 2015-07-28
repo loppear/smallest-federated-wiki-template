@@ -5,6 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "wiki": "~0.7",
+    "wiki-server": "0.6",
+    "wiki-client": "0.5",
     "wiki-storage-redis": "loppear/wiki-storage-redis#url-from-env"
   },
   "scripts": {
