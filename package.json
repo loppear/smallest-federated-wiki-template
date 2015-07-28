@@ -8,7 +8,7 @@
     "wiki-storage-redis": "loppear/wiki-storage-redis#url-from-env"
   },
   "scripts": {
-    "start": "wiki -p $PORT --database '{\"type\": \"redis\"}'"
+    "start": "wiki -p $PORT --database '{\"type\": \"redis\", \"env_url\": \"REDISCLOUD_URL\"}'"
   },
   "author": "",
   "license": "MIT"
